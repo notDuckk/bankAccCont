@@ -62,6 +62,7 @@ public class Main {
                         System.out.println("Account not found");
                         continue;
                     }
+                    System.out.println("How much would you like to transfer to: " + trans2.getName());
                     int trans = input.nextInt();
                     bankAcc.bankTransfer(trans2, trans);
                     System.out.println("Transfer successful");
